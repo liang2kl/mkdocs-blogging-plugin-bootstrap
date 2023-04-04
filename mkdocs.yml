@@ -23,9 +23,7 @@ plugins:
       # ============================================================================
       # [SECTION] global category
       # [NOTE]    referenced by {{ blog_content }}
-      # [NOTE]    if you are not using the template, please delete override/custom-blog.html
       # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#category-specific-settings
-      #           https://liang2kl.github.io/mkdocs-blogging-plugin/template/
 
       dirs:
         - blog
