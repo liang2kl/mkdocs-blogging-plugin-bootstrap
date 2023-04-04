@@ -20,32 +20,32 @@ theme:
 
 plugins:
   - blogging:
-    # ============================================================================
-    # [SECTION] global category
-    # [NOTE]    referenced by {{ blog_content }}
-    # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#category-specific-settings
+      # ============================================================================
+      # [SECTION] global category
+      # [NOTE]    referenced by {{ blog_content }}
+      # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#category-specific-settings
 
-    dirs:
-      - blog
+      dirs:
+        - blog
 
-    # ============================================================================
-    # [SECTION] additional categories (optional)
-    # [NOTE]    referenced by {{ blog_content <category_name> }}
-    # [NOTE]    if you are not using them, please delete the `reviews` directory
-    # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#categories
-    #           https://liang2kl.github.io/mkdocs-blogging-plugin/#category-specific-settings
+      # ============================================================================
+      # [SECTION] additional categories (optional)
+      # [NOTE]    referenced by {{ blog_content <category_name> }}
+      # [NOTE]    if you are not using them, please delete the `review` directory
+      # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#categories
+      #           https://liang2kl.github.io/mkdocs-blogging-plugin/#category-specific-settings
 
-    categories:
-      - name: reviews
-        dirs:
-          - reviews
-    
-    # ============================================================================
-    # [SECTION] global configurations (optional)
-    # [NOTE]    configs that apply to all categories
-    # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#global-settings
+      categories:
+        - name: reviews
+          dirs:
+            - reviews
+      
+      # ============================================================================
+      # [SECTION] global configurations (optional)
+      # [NOTE]    configs that apply to all categories
+      # [REF]     https://liang2kl.github.io/mkdocs-blogging-plugin/#global-settings
 
-    features:
-      tags:
-        index_page: tags.md
-        insert: top
+      features:
+        tags:
+          index_page: tags.md
+          insert: top
